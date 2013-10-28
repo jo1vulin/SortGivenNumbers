@@ -1,0 +1,30 @@
+﻿body {
+    background-color: antiquewhite;
+    margin: 4px 7px 20px 40px;
+}
+
+header, footer {
+    text-align: center;
+    font-style: italic oblique;
+    color: black;
+}
+
+
+nav {
+    text-align: left;
+}
+
+a {
+    display: block;
+}
+
+#header {
+    font-size: 25px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    height: 60px; /* Height of the footer */
+}

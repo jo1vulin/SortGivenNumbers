@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SortGivenNumbers.master.cs" Inherits="SortGiveNumbers.SortGivenNumbers" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="author" content="Jovan Vulin" />
+    <meta name="keywords" content="NUMBERS,SORTING,SORT NUMBERS" />
+
+    <title>Sort given numbers</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style/master.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+         <div class="footer" id="Div1">
+            <footer>This is the footer of the web page. All rights reserver 2013</footer>
+        </div>
+    </form>
+</body>
+</html>
