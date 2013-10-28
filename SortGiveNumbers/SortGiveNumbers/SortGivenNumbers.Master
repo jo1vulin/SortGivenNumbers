@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head runat="server" lang="en">
     <meta name="author" content="Jovan Vulin" />
     <meta name="keywords" content="NUMBERS,SORTING,SORT NUMBERS" />
+    <meta charset="utf-8" />
 
     <title>Sort given numbers</title>
     <asp:ContentPlaceHolder ID="head" runat="server">

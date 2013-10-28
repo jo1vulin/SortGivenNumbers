@@ -136,6 +136,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\User.cs" />
+    <Compile Include="BLL\UserBLL.cs" />
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -194,7 +196,6 @@
   <ItemGroup>
     <Folder Include="App_GlobalResources\" />
     <Folder Include="App_LocalResources\" />
-    <Folder Include="BLL\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="obj\Release %281%29\ProfileTransformWebConfig\transformed\" />
     <Folder Include="obj\Release %281%29\TempPE\" />

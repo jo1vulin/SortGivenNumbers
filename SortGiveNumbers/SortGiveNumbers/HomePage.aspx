@@ -7,14 +7,33 @@
             <p>
             </p>
             <nav>
-                <a href="SortingPage.aspx">Go to sorting page =></a>
-                <a>Page 3</a>
-                <a>Page 4</a>
-                <a>Page 5</a>
-                <a>Page 6</a>
+                <ul>
+                    <li>
+                        <a href="SortingPage.aspx">Go to sorting page =></a>
+                    </li>
+                    <li>
+                        <a>Page 3</a>
+                    </li>
+                    <li>
+                        <a>Page 4</a>
+                    </li>
+                    <li>
+                        <a>Page 5</a>
+                    </li>
+                    <li>
+                        <a>Page 6</a>
+                    </li>
+                </ul>
             </nav>
+            <figure>
+                <img src="" alt="Ovo je alternativa" />
+                <figcaption>
+                Bla bla
+            </figcaption>
+            </figure>
+            
 
         </div>
-      
+
     </div>
 </asp:Content>
