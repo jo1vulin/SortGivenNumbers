@@ -8,18 +8,28 @@ namespace SortGiveNumbers.BLL
 {
     public class UserBLL
     {
-        User korisnik = new User(1, "Jovan", "Vulin");
-        User korisnik1 = new User(2, "Milan", "Milic");
-        User korisnik2 = new User(3, "Goran", "Goric");
-        User korisnik3 = new User(4, "Mirko", "Bulic");
 
+        List<User> testListOfUsers = initializeData();
+
+        public static List<User> initializeData()
+        {
+            User korisnik = new User(1, "Jovan", "Vulin");
+            User korisnik1 = new User(2, "Milan", "Milic");
+            User korisnik2 = new User(3, "Goran", "Goric");
+            User korisnik3 = new User(4, "Mirko", "Bulic");
+
+            List<User> testListOfUsers = new List<User> { korisnik, korisnik1, korisnik2, korisnik3 };
+            return testListOfUsers;
+
+
+        }
 
 
 
         public string getUserNameById(int UserID)
         {
-            List<User> lista = new List<User> { korisnik, korisnik1, korisnik2, korisnik3 };
-            var userName = from b in lista
+
+            var userName = from b in testListOfUsers
                            where b.UserID == UserID
                            select b.FirstName.ToString();
 
@@ -34,6 +44,25 @@ namespace SortGiveNumbers.BLL
 
         }
 
+        public string getUserByName(string userName)
+        {
+
+
+            var user = from b in testListOfUsers
+                       where b.FirstName.Contains(userName)
+                       select b.FirstName.ToString();
+
+            if (!String.IsNullOrEmpty(user.FirstOrDefault()))
+            {
+                string allUsers = string.Join(",", user);
+                return allUsers;
+
+
+            }
+
+            return "User not found!";
+
+        }
 
 
     }

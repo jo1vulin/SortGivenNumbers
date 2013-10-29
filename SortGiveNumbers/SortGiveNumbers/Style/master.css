@@ -9,11 +9,6 @@ header, footer {
     color: black;
 }
 
-
-nav {
-    text-align: left;
-}
-
 article {
     display:block;
     font-size:2em;
@@ -29,4 +24,20 @@ article {
     bottom: 0;
     width: inherit;
     height: 60px; /* Height of the footer */
+}
+
+nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
 }

@@ -81,19 +81,27 @@
   <ItemGroup>
     <Content Include="bin\SortGiveNumbers.dll" />
     <Content Include="bin\SortGiveNumbers.pdb" />
-    <Content Include="DisplayUser.aspx" />
+    <Content Include="DisplayUserById.aspx" />
+    <Content Include="DisplayUserByName.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="SortingPage.aspx" />
     <Content Include="Style\master.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DisplayUser.aspx.cs">
-      <DependentUpon>DisplayUser.aspx</DependentUpon>
+    <Compile Include="DisplayUserById.aspx.cs">
+      <DependentUpon>DisplayUserById.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DisplayUser.aspx.designer.cs">
-      <DependentUpon>DisplayUser.aspx</DependentUpon>
+    <Compile Include="DisplayUserById.aspx.designer.cs">
+      <DependentUpon>DisplayUserById.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayUserByName.aspx.cs">
+      <DependentUpon>DisplayUserByName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayUserByName.aspx.designer.cs">
+      <DependentUpon>DisplayUserByName.aspx</DependentUpon>
     </Compile>
     <Compile Include="Model\User.cs" />
     <Compile Include="BLL\UserBLL.cs" />

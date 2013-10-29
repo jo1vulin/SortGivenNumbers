@@ -16,15 +16,34 @@
 <body>
     <form id="form1" runat="server">
         <header id="header1">
-                <h1>This is the header of the web page</h1>
-            </header>
-            
+            <h1>This is the header of the web page</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="SortingPage.aspx">Go to sorting page</a>
+                </li>
+                <li>
+                    <a href="DisplayUserById.aspx">Find user by id</a>
+                </li>
+                <li>
+                    <a href="DisplayUserByName.aspx">Find user by name</a>
+                </li>
+                <li>
+                    <a>Page 5</a>
+                </li>
+                <li>
+                    <a>Page 6</a>
+                </li>
+            </ul>
+        </nav>
+
         <div>
             <asp:ContentPlaceHolder ID="content" runat="server">
             </asp:ContentPlaceHolder>
         </div>
 
-         <div class="footer" id="Div1">
+        <div class="footer" id="Div1">
             <footer>This is the footer of the web page. All rights reserver 2013</footer>
         </div>
     </form>
