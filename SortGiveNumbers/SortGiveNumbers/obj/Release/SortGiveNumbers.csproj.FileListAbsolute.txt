@@ -1,85 +1,3 @@
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\SortGiveNumbers.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\SortGiveNumbers.pdb
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.Edm.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.OData.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Configuration.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Diagnostics.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Storage.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\System.Spatial.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.Edm.xml
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.OData.xml
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Diagnostics.xml
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Storage.xml
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\System.Spatial.xml
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\de\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\es\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\fr\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\it\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ja\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ko\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ru\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\de\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\es\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\fr\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\it\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ja\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ko\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ru\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\de\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\es\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\fr\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\it\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ja\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ko\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\ru\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hans\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\obj\Release\SortGiveNumbers.dll
-C:\Users\j.vulin\Google Drive\Programing\VS 2012 Projects\SortGiveNumbers\SortGiveNumbers\obj\Release\SortGiveNumbers.pdb
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\SortGiveNumbers.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\SortGiveNumbers.pdb
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.Edm.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.OData.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Configuration.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Diagnostics.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Storage.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\System.Spatial.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\de\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\es\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\fr\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\it\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ja\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ko\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ru\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\de\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\es\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\fr\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\it\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ja\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ko\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ru\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hans\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hant\Microsoft.Data.OData.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\de\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\es\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\fr\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\it\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ja\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ko\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\ru\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hans\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\bin\zh-Hant\System.Spatial.resources.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\obj\Release\SortGiveNumbers.csprojResolveAssemblyReference.cache
-D:\Projects\SortGiveNumbers\SortGiveNumbers\obj\Release\SortGiveNumbers.dll
-D:\Projects\SortGiveNumbers\SortGiveNumbers\obj\Release\SortGiveNumbers.pdb
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\SortGiveNumbers.dll
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\SortGiveNumbers.pdb
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.Edm.dll
@@ -89,6 +7,11 @@ D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Diagnostics.d
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Storage.dll
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\System.Spatial.dll
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.Edm.xml
+D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.Data.OData.xml
+D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Diagnostics.xml
+D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\Microsoft.WindowsAzure.Storage.xml
+D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\System.Spatial.xml
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\de\Microsoft.Data.Edm.resources.dll
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\es\Microsoft.Data.Edm.resources.dll
 D:\Repo\SortGiveNumbers\SortGiveNumbers\bin\fr\Microsoft.Data.Edm.resources.dll

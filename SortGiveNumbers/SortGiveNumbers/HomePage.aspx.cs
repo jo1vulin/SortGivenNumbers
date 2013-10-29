@@ -12,11 +12,7 @@ namespace SortGiveNumbers
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            UserBLL test = new UserBLL();
-           
-
-            lblResult.Text = test.getUserNameById(3);
         }
+
     }
 }

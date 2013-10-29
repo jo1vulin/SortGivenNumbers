@@ -15,6 +15,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <header id="header1">
+                <h1>This is the header of the web page</h1>
+            </header>
+            
         <div>
             <asp:ContentPlaceHolder ID="content" runat="server">
             </asp:ContentPlaceHolder>

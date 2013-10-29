@@ -81,62 +81,21 @@
   <ItemGroup>
     <Content Include="bin\SortGiveNumbers.dll" />
     <Content Include="bin\SortGiveNumbers.pdb" />
+    <Content Include="DisplayUser.aspx" />
     <Content Include="HomePage.aspx" />
-    <Content Include="obj\Debug\SortGiveNumbers.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\SortGiveNumbers.dll" />
-    <Content Include="obj\Debug\SortGiveNumbers.pdb" />
-    <Content Include="obj\Debug\SortGiveNumbers[Conflict].dll" />
-    <Content Include="obj\Debug\SortGiveNumbers[Conflict].pdb" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\de\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\de\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\de\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\es\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\es\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\es\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\fr\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\fr\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\fr\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\it\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\it\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\it\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ja\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ja\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ja\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ko\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ko\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ko\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\Microsoft.Data.Edm.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\Microsoft.Data.OData.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\Microsoft.WindowsAzure.Configuration.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\Microsoft.WindowsAzure.Diagnostics.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\Microsoft.WindowsAzure.Storage.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ru\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ru\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\ru\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\SortGiveNumbers.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\System.Spatial.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\zh-Hans\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\zh-Hans\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\zh-Hant\Microsoft.Data.OData.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\bin\zh-Hant\System.Spatial.resources.dll" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\HomePage.aspx" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\SortingPage.aspx" />
-    <Content Include="obj\Release %281%29\SortGiveNumbers.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Release %281%29\SortGiveNumbers.dll" />
-    <Content Include="obj\Release %281%29\SortGiveNumbers.pdb" />
-    <Content Include="obj\Release %281%29\_WPPLastBuildInfo.txt" />
-    <Content Include="obj\Release\SortGiveNumbers.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Release\SortGiveNumbers.dll" />
-    <Content Include="obj\Release\SortGiveNumbers.pdb" />
     <Content Include="SortingPage.aspx" />
     <Content Include="Style\master.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\User.cs" />
+    <Compile Include="DisplayUser.aspx.cs">
+      <DependentUpon>DisplayUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayUser.aspx.designer.cs">
+      <DependentUpon>DisplayUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\User.cs" />
     <Compile Include="BLL\UserBLL.cs" />
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
@@ -145,15 +104,6 @@
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="obj\Release %281%29\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Release %281%29\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Release %281%29\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortGivenNumbers.Master.cs">
       <DependentUpon>SortGivenNumbers.Master</DependentUpon>
@@ -172,18 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput[Conflict].cache" />
-    <Content Include="obj\Debug\SortGiveNumbers.csprojResolveAssemblyReference.cache" />
-    <Content Include="obj\Release %281%29\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\packages.config" />
-    <Content Include="obj\Release %281%29\Package\PackageTmp\Web.config" />
-    <Content Include="obj\Release %281%29\SortGiveNumbers.csprojResolveAssemblyReference.cache" />
-    <Content Include="obj\Release %281%29\TransformWebConfig\assist\Web.config" />
-    <Content Include="obj\Release %281%29\TransformWebConfig\original\Web.config" />
-    <Content Include="obj\Release %281%29\TransformWebConfig\transformed\Web.config" />
-    <Content Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Release\SortGiveNumbers.csprojResolveAssemblyReference.cache" />
     <None Include="Properties\PublishProfiles\JovanVulin.pubxml" />
     <Content Include="SortGivenNumbers.Master" />
     <None Include="Web.Debug.config">
@@ -196,10 +134,7 @@
   <ItemGroup>
     <Folder Include="App_GlobalResources\" />
     <Folder Include="App_LocalResources\" />
-    <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="obj\Release %281%29\ProfileTransformWebConfig\transformed\" />
-    <Folder Include="obj\Release %281%29\TempPE\" />
-    <Folder Include="obj\Release\TempPE\" />
+    <Folder Include="obj\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
