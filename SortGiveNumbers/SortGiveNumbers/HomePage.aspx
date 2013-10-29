@@ -31,6 +31,8 @@
                 Bla bla
             </figcaption>
             </figure>
+
+             <asp:Label ID="lblResult" runat="server"></asp:Label>
             
 
         </div>
