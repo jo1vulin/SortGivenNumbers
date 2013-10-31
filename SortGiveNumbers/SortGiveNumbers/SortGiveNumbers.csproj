@@ -81,6 +81,7 @@
   <ItemGroup>
     <Content Include="bin\SortGiveNumbers.dll" />
     <Content Include="bin\SortGiveNumbers.pdb" />
+    <Content Include="DisplayAllUsers.aspx" />
     <Content Include="DisplayUserById.aspx" />
     <Content Include="DisplayUserByName.aspx" />
     <Content Include="HomePage.aspx" />
@@ -89,6 +90,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DisplayAllUsers.aspx.cs">
+      <DependentUpon>DisplayAllUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayAllUsers.aspx.designer.cs">
+      <DependentUpon>DisplayAllUsers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DisplayUserById.aspx.cs">
       <DependentUpon>DisplayUserById.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,6 +135,7 @@
     <Compile Include="SortingPage.aspx.designer.cs">
       <DependentUpon>SortingPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ViewUtil\ViewUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

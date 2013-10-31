@@ -7,7 +7,7 @@ namespace SortGiveNumbers.BLL
 {
     public class User
     {
-        public User(int UserId, string FirstName, string Lastname)
+        public User(int UserId, string FirstName, string LastName)
         {
             this.UserID = UserId;
             this.FirstName = FirstName;

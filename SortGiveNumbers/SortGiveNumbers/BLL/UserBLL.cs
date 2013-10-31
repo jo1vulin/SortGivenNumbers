@@ -17,8 +17,10 @@ namespace SortGiveNumbers.BLL
             User korisnik1 = new User(2, "Milan", "Milic");
             User korisnik2 = new User(3, "Goran", "Goric");
             User korisnik3 = new User(4, "Mirko", "Bulic");
+           
 
             List<User> testListOfUsers = new List<User> { korisnik, korisnik1, korisnik2, korisnik3 };
+            
             return testListOfUsers;
 
 
@@ -54,13 +56,33 @@ namespace SortGiveNumbers.BLL
 
             if (!String.IsNullOrEmpty(user.FirstOrDefault()))
             {
-                string allUsers = string.Join(",", user);
-                return allUsers;
+                string allFoundUsers = string.Join(",", user);
+                return allFoundUsers;
 
 
             }
 
             return "User not found!";
+
+        }
+
+        public IEnumerable<string> getAllUsers()
+        {
+           // string allUsers = "";
+
+            var user = from b in testListOfUsers
+                       select b.FirstName + " " + b.LastName;
+
+            if (!String.IsNullOrEmpty(user.ToString()))
+            {
+               
+                  //  allUsers = string.Join(",",user);
+                   
+                
+                return user;
+            }
+
+            return null;
 
         }
 
