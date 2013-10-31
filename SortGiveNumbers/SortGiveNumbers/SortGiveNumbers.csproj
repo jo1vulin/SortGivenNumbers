@@ -84,6 +84,7 @@
     <Content Include="DisplayAllUsers.aspx" />
     <Content Include="DisplayUserById.aspx" />
     <Content Include="DisplayUserByName.aspx" />
+    <Content Include="ErrorPages\PageNotFound.html" />
     <Content Include="HomePage.aspx" />
     <Content Include="SortingPage.aspx" />
     <Content Include="Style\master.css" />
