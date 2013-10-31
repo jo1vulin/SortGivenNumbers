@@ -5,21 +5,20 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using SortGiveNumbers.BLL;
-using SortGiveNumbers.ViewUtil;
+
 
 namespace SortGiveNumbers
 {
-    public partial class DisplayAllUsers : System.Web.UI.Page,IViewUtil
+    public partial class DisplayAllUsers : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             UserBLL users = new UserBLL();
             var allUsers = users.getAllUsers();
-           
 
-            foreach (var s in allUsers)
+            foreach (var user in allUsers)
             {
-                lblAllUsers.Text += s + "</br>";
+                lblAllUsers.Text += user + "</br>";
             }
             
         }

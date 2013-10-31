@@ -135,7 +135,6 @@
     <Compile Include="SortingPage.aspx.designer.cs">
       <DependentUpon>SortingPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ViewUtil\ViewUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
