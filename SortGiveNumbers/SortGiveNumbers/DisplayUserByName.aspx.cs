@@ -17,10 +17,15 @@ namespace SortGiveNumbers
 
         protected void btnSubmitClick(object sender, EventArgs e)
         {
+            lblUser.Text = string.Empty;
             string userName = inputUserName.Value;
             UserBLL users = new UserBLL();
-            lblUser.Text = users.getUserByName(userName);
+            var foundUsers = users.getUserByName(userName);
 
+            foreach (var user in foundUsers)
+            {
+                lblUser.Text += String.Join("", user.FirstName,user.LastName) + "</br>";
+            }
         }
     }
 }

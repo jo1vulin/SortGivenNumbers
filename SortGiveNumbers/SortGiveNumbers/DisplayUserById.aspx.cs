@@ -10,6 +10,8 @@ namespace SortGiveNumbers
 {
     public partial class DisplayUser : System.Web.UI.Page
     {
+        private const string notFound = "User was not found";
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -20,8 +22,21 @@ namespace SortGiveNumbers
         {
             int UserId = Int32.Parse(inputUserId.Value);
             UserBLL users = new UserBLL();
-            lblUser.Text = users.getUserNameById(UserId);
+            User foundUser = users.getUserNameById(UserId);
+            if (foundUser != null)
+            {
+                lblUser.Text = foundUser.FirstName + foundUser.LastName;
+            }
+            else
+            {
+                lblUser.Text = DisplayUser.notFound;
+            }
 
+            int i = Math.Abs(386792);
+            while (i >= 10)
+                i %= 10;
+
+            lblUser.Text = i.ToString();
         }
     }
 }

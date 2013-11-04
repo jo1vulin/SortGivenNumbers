@@ -8,59 +8,54 @@ namespace SortGiveNumbers.BLL
 {
     public class UserBLL
     {
-        List<User> testListOfUsers = initializeData();
+        private static List<User> testListOfUsers = initializeData();
 
         public static List<User> initializeData()
         {
+          
             User korisnik = new User(1, "Jovan", "Vulin");
             User korisnik1 = new User(2, "Milan", "Milic");
             User korisnik2 = new User(3, "Goran", "Goric");
             User korisnik3 = new User(4, "Mirko", "Bulic");
+            User korisnik4 = new User(5, "Jovan", "Vulin");
+            User korisnik5 = new User(6, "Milan", "Milic");
+            User korisnik6 = new User(7, "Goran", "Goric");
+            User korisnik7 = new User(8, "Mirko", "Bulic");
+            User korisnik8 = new User() {UserID=9, FirstName = "AAA", LastName = "BBB" };
 
-
-            List<User> testListOfUsers = new List<User> { korisnik, korisnik1, korisnik2, korisnik3 };
-
+           
+                List<User> testListOfUsers = new List<User> { korisnik, korisnik1, korisnik2, korisnik3,korisnik4,korisnik5,korisnik6,korisnik7,korisnik8 };
+            
             return testListOfUsers;
         }
 
-        public string getUserNameById(int UserID)
+        // Return the User object
+        public User getUserNameById(int UserID)
         {
-            var userName = from b in testListOfUsers
-                           where b.UserID == UserID
-                           select b.FirstName.ToString();
+            var foundUser = (from user in testListOfUsers
+                           where user.UserID == UserID
+                           select user).FirstOrDefault();
 
-            if (!String.IsNullOrEmpty(userName.FirstOrDefault()))
-            {
-                return userName.First().ToString();
-            }
-            return "User not found!";
+
+            return (User)foundUser;
+            
         }
 
-        public string getUserByName(string userName)
+        public IEnumerable<User> getUserByName(string userName)
         {
+            var usersFoundByID = from user in testListOfUsers
+                       where user.FirstName.Contains(userName)
+                       select user;
 
-            var user = from b in testListOfUsers
-                       where b.FirstName.Contains(userName)
-                       select b.FirstName.ToString();
-
-            if (!String.IsNullOrEmpty(user.FirstOrDefault()))
-            {
-                string allFoundUsers = string.Join(",", user);
-                return allFoundUsers;
-            }
-            return "User not found!";
+            return usersFoundByID;
         }
 
-        public IEnumerable<string> getAllUsers()
+        public IEnumerable<User> getAllUsers()
         {
-            var user = from b in testListOfUsers
-                       select b.FirstName + " " + b.LastName;
+            var users = from user in testListOfUsers
+                       select user;
 
-            if (!String.IsNullOrEmpty(user.ToString()))
-            {
-                return user;
-            }
-            return null;
+            return users;
         }
 
 
