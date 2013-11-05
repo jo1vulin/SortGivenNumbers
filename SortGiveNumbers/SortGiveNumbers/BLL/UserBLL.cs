@@ -8,7 +8,7 @@ namespace SortGiveNumbers.BLL
 {
     public class UserBLL
     {
-        private static List<User> testListOfUsers = initializeData();
+        public static List<User> testListOfUsers = initializeData();
 
         public static List<User> initializeData()
         {
@@ -24,7 +24,7 @@ namespace SortGiveNumbers.BLL
             User korisnik8 = new User() {UserID=9, FirstName = "AAA", LastName = "BBB" };
 
            
-                List<User> testListOfUsers = new List<User> { korisnik, korisnik1, korisnik2, korisnik3,korisnik4,korisnik5,korisnik6,korisnik7,korisnik8 };
+           List<User> testListOfUsers = new List<User> { korisnik, korisnik1, korisnik2, korisnik3,korisnik4,korisnik5,korisnik6,korisnik7,korisnik8 };
             
             return testListOfUsers;
         }
@@ -56,6 +56,21 @@ namespace SortGiveNumbers.BLL
                        select user;
 
             return users;
+        }
+
+        public void deleteUserFromList(int UserID)
+        {
+            testListOfUsers.RemoveAll(user => user.UserID==UserID);
+        }
+
+        public void editUserFromList(int UserID, string FirstName, string LastName)
+        {
+            foreach (var item in testListOfUsers.Where(user => user.UserID==UserID))
+            {
+                item.FirstName = FirstName;
+                item.LastName = LastName;
+            }
+            
         }
 
 

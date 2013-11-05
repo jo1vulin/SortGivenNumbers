@@ -21,15 +21,28 @@
     <br />
     <h5>Use of data grid</h5>
     <asp:GridView ID="grdAllUsers"
+        DataKeyNames="UserID"
         runat="server"
-         AutoGenerateColumns="False">
+        AutoGenerateColumns="False"
+        OnRowDeleting="grdAllUsers_RowDeleting"
+        OnRowEditing="grdAllUsers_RowEditing"
+        OnRowUpdating="grdAllUsers_RowUpdating">
         <Columns>
             <asp:BoundField DataField="UserId" HeaderText="User ID" />
-            <asp:BoundField DataField="FirstName" HeaderText="First name"/>
-            <asp:BoundField DataField="LastName" HeaderText="Last name"/>
-            <asp:CommandField ShowDeleteButton="True" 
-            ShowEditButton="True" />
+            <asp:BoundField DataField="FirstName" HeaderText="First name" />
+            <asp:BoundField DataField="LastName" HeaderText="Last name" />
+            <asp:CommandField ShowDeleteButton="True"
+                ShowEditButton="True" />
+            <asp:TemplateField>
+                <EditItemTemplate>
+                    <asp:TextBox ID="TxtRejectReason"
+                        runat="server" Font-Names="Verdana" Font-Size="X-Small" ForeColor="Black"
+                        Height="20px" Text='<%# Eval("FirstName")%>' Enabled="true" Visible="true" Width="100px"></asp:TextBox>
+                </EditItemTemplate>
+            </asp:TemplateField>
+
         </Columns>
+
     </asp:GridView>
 
 </asp:Content>

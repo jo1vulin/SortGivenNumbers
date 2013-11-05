@@ -32,11 +32,7 @@ namespace SortGiveNumbers
                 lblUser.Text = DisplayUser.notFound;
             }
 
-            int i = Math.Abs(386792);
-            while (i >= 10)
-                i %= 10;
-
-            lblUser.Text = i.ToString();
+            
         }
     }
 }

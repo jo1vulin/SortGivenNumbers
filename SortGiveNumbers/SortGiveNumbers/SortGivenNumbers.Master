@@ -35,9 +35,7 @@
                 <li>
                     <a href="DisplayAllUsers.aspx">Display all users</a>
                 </li>
-                <li>
-                    <a>Page 6</a>
-                </li>
+                
             </ul>
         </nav>
 
@@ -47,7 +45,7 @@
         </div>
 
         <div class="footer" id="Div1">
-            <footer>This is the footer of the web page. All rights reserver 2013</footer>
+            <footer>This is the footer of the web page. All rights reserved 2013</footer>
         </div>
     </form>
 </body>
