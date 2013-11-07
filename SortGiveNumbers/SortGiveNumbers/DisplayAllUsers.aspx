@@ -13,8 +13,8 @@
     <h5>Use of repeater</h5>
     <asp:Repeater ID="rptAllUsers" runat="server">
         <ItemTemplate>
-            <asp:Label ID="lblUser" runat="server" Text='<%# Eval("FirstName") %>'></asp:Label>
-            <asp:Label ID="Label1" runat="server" Text='<%# Eval("LastName") %>'></asp:Label>
+            <asp:Label ID="lblFirstName" runat="server" Text='<%# Eval("FirstName") %>'></asp:Label>
+            <asp:Label ID="lblLastName" runat="server" Text='<%# Eval("LastName") %>'></asp:Label>
             <br />
         </ItemTemplate>
     </asp:Repeater>
@@ -29,18 +29,26 @@
         OnRowUpdating="grdAllUsers_RowUpdating">
         <Columns>
             <asp:BoundField DataField="UserId" HeaderText="User ID" />
-            <asp:BoundField DataField="FirstName" HeaderText="First name" />
-            <asp:BoundField DataField="LastName" HeaderText="Last name" />
-            <asp:CommandField ShowDeleteButton="True"
-                ShowEditButton="True" />
-            <asp:TemplateField>
+            <asp:TemplateField HeaderText="First name">
+                <ItemTemplate>
+                    <%# Eval("FirstName")%>
+                </ItemTemplate>
                 <EditItemTemplate>
-                    <asp:TextBox ID="TxtRejectReason"
-                        runat="server" Font-Names="Verdana" Font-Size="X-Small" ForeColor="Black"
-                        Height="20px" Text='<%# Eval("FirstName")%>' Enabled="true" Visible="true" Width="100px"></asp:TextBox>
+                    <asp:TextBox runat="server" ID="txtFirstName" Text='<%# Eval("FirstName")%>' />
                 </EditItemTemplate>
             </asp:TemplateField>
 
+            <asp:TemplateField HeaderText="LastName">
+                <ItemTemplate>
+                    <%# Eval("LastName")%>
+                </ItemTemplate>
+                <EditItemTemplate>
+                    <asp:TextBox runat="server" ID="txtLastName" Text='<%# Eval("LastName")%>' />
+                </EditItemTemplate>
+            </asp:TemplateField>
+
+            <asp:CommandField ShowDeleteButton="True"
+                ShowEditButton="True" />
         </Columns>
 
     </asp:GridView>

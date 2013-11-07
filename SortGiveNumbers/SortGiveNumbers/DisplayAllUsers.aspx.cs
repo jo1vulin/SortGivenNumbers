@@ -25,7 +25,7 @@ namespace SortGiveNumbers
 
             if (!IsPostBack)
             {
-                //data grid, repeater
+               
                 foreach (var user in allUsers)
                 {
                     lblAllUsers.Text += user.FirstName + " " + user.LastName + "</br>";
@@ -61,11 +61,13 @@ namespace SortGiveNumbers
         protected void grdAllUsers_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
             int userid = (int)grdAllUsers.DataKeys[e.RowIndex].Value;
-            //string firstName = grdAllUsers.DataKeys[e.RowIndex].Values["FirstName"].ToString();
-            //string lastName = grdAllUsers.DataKeys[e.RowIndex].Values["LastName"].ToString();
-            users.editUserFromList(userid, "Test", "Test");
-          
             
+
+            GridViewRow row = grdAllUsers.Rows[e.RowIndex];
+            TextBox txtFirstName = (TextBox)row.FindControl("txtFirstName");
+            TextBox txtLastName = (TextBox)row.FindControl("txtLastName");
+            users.editUserFromList(userid, txtFirstName.Text, txtLastName.Text);
+
             grdAllUsers.EditIndex = -1;
             grdAllUsers.DataSource = UserBLL.testListOfUsers;
             grdAllUsers.DataBind();

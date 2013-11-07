@@ -12,11 +12,11 @@ namespace SortGiveNumbers
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                lbltest.Text = "Click at " + DateTime.Now.Ticks.ToString();
-            }
-            lbltest2.Text = "Click at " + DateTime.Now.Ticks.ToString();
+            //if (!IsPostBack)
+            //{
+            //    lbltest.Text = "Click at " + DateTime.Now.Ticks.ToString();
+            //}
+            //lbltest2.Text = "Click at " + DateTime.Now.Ticks.ToString();
         }
 
     }
